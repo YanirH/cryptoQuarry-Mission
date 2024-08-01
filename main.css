@@ -1,0 +1,97 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto; 
+}
+
+.parallax {
+    background-image: url('./parallax/graph.webp');
+    min-height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+    position: relative; 
+    overflow: hidden;
+}
+
+/* .parallax h1 {
+    color: blue;
+    position: fixed;
+    justify-content: top;
+} */
+
+#mainContent {
+    min-height: 2000px; /* Sufficient height to enable scrolling */
+    background-color: #ffffff;
+    padding-top: 1px; /* Ensures content is just below the viewport */
+}
+
+
+
+
+
+
+
+
+.card {
+    width: 18rem;
+} 
+
+.card collapsed {
+    text-align: center;
+}
+#coinContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ .collapse {
+    
+    text-align: center;
+    
+} 
+
+#searchInput {
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+#searchBtn {
+    height: 40px;
+}
+
+#flexSwitchCheckDefault {
+    margin-left: 190px;
+}
+
+
+
+#chartContainer {
+    display: none;
+}
+
+#aboutContainer {
+    display: none;
+    text-align: center;
+}
+
+#modalBtn {
+    display: none;
+}
+
+#profilePhoto {
+    height: 200px;
+    width: 200px;
+}
